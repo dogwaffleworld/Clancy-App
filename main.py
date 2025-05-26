@@ -3,9 +3,13 @@ import discord_ios
 from discord.ext import commands
 import pomice
 import os
+from dotenv import load_dotenv 
 import asyncio
 
-BOT_TOKEN = ""
+
+load_dotenv() 
+
+BOT_TOKEN = os.environ.get("DISCORD_TOKEN")
 COGS_DIR = "cogs"
 BOT_OWNER_ID = 895722260726440007
 

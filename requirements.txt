@@ -1,3 +1,4 @@
 discord.py
 pomice
 pillow
+discord_ios
